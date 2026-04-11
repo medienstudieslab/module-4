@@ -21,6 +21,16 @@ html {
   background-color: rgb(42, 42, 42);
 }
 
+body {
+  margin: 0;
+  height: 100vh;
+  background-image: url("../assets/IMG_2268 1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+}
+
 form > * {
   width: 40vw;
   min-width: 400px;
@@ -52,7 +62,7 @@ input {
   padding: 10px 0px 10px 10px;
   border-radius: 0px;
   border: solid 1px;
-  background-color: rgba(105, 105, 105, 0);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 input::placeholder {
@@ -90,3 +100,11 @@ h3 {
   justify-content: center;
   align-items: center;
 }
+
+/* .over::before {
+  content: "";
+  background-image: url("../assets/IMG_2268 1.png");
+  width: 100vw;
+  height: 100vh;
+  filter: blur(4px);
+} */
